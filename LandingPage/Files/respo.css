@@ -1,0 +1,249 @@
+/*
+ @media only screen and (max-width:1179px)  
+  @media only screen and (max-width:991px)  
+   @media only screen and (max-width:849px)  
+    @media only screen and (max-width:769px)
+       @media only screen and (max-width:504px) 
+          @media only screen and (max-width:481px) 
+             @media only screen and (max-width:420px)
+                @media only screen and (max-width:300px)    */
+
+
+
+
+
+ @media only screen and (max-width:1179px)         {
+      
+                                .container{/*background: pink;*/width: 100%} 
+
+   /*==============================navbar Section styling start ====================================================*/
+                          
+    
+     .Story{width: 60vw;}
+     .musicGif{width:40vw }
+     .musicGif img{width:100%} 
+
+
+      /*-- =============================== Services section start ================================== */
+    
+         .text{font-size:20px;top: 46%;left: 4%}
+
+                                                    }
+
+
+/*(991 px) */
+
+ @media only screen and (max-width:991px)                            {
+                   
+                   .container{/*background: gray;*/width: 100%}
+
+         
+         .menu{ display: block;}
+         .content{margin-top: 100px;}
+         .content h1{font-size: 2.5vw;line-height: 55px} 
+                     
+
+     /*==============================about Section styling start ====================================================*/
+       
+       .Story{width: 60vw;}
+       .musicGif{width:35vw;display:flex;align-items:center; }
+       .musicGif img{width:100%;height: 70%} 
+
+     
+       /*-- =============================== Services section start ================================== */
+    
+         .text{font-size:20px;top: 46%;left: 4%}
+
+
+       /*==============================Footer Section styling start ====================================================*/
+
+       #contact{justify-content:space-between;}
+           
+    
+           
+                                                                                          }
+
+   
+
+
+
+
+
+/*(849 px) */
+
+  @media only screen and (max-width:849px) {
+
+                          .container{/* background: yellowgreen;*/ width: 100%}
+
+ /*==============================navbar Section styling start ====================================================*/
+              
+		.menu{ position: fixed;top: 0;right: 0;height: 100vh; width: 50%;background: red;display: none;z-index: 60;
+		      }  
+		.menu ul{flex-direction: column;margin-top: 50px}
+		.icon{display: block;position: absolute;top: 16px;right: 20px}
+		.icon1{display: block;position: absolute;top: 25px;right: 30px;color: black;font-size: 30px;
+		       }
+		.menu ul li{margin-top: 20px}
+		.menu ul li a{color: black;border: 1px solid red;} 
+
+     
+/*==============================Banner Section styling start ====================================================*/
+
+
+ 
+
+         
+
+
+     /*==============================about Section styling start ====================================================*/
+        
+       .Story{width: 60vw;}
+       .musicGif{width:35vw;display:flex;align-items:center; }
+       .musicGif img{width:100%;height: 50%} 
+
+
+
+/*  =============================== Services section start ================================== */
+
+       .instruments{display: flex;flex-wrap:wrap;justify-content:center;gap:50px }  
+       .instruments>div{width: 200px;height: 200px;}
+
+        
+/*==============================Footer Section styling start ====================================================*/
+
+      .socials .loko{color: orange;font-size: 20px;margin-bottom: 20px}
+      .socials span{font-size: 20px;margin-left: 10px; }
+      .contU{font-size: 20px;margin-bottom: 20px} 
+
+      
+                                                           }
+
+
+
+
+/*(769 px) */
+
+  @media only screen and (max-width:769px) {
+                          
+                          .container{ /*  background:skyblue; */width: 100%}
+                          .musicGif img { 
+                                  height: 100%;
+                              }
+
+     /*==============================Navbar Section styling start ====================================================*/
+  
+         .logo span{font-size: 20px}
+         .rHead{font-size: 50px;} 
+
+         .content h1{font-size: 2vw;line-height: 45px;margin-left: -20px} 
+
+     /*==============================about Section styling start ====================================================*/
+       
+       .story_image{width: 100%;display: flex; flex-direction: column;align-items: center;}
+       .Story{width: 100%;margin: 0px;font-size: 15px;margin-bottom: 10px}
+       
+
+     /*  =============================== Services section start ================================== */
+
+       .instruments{display: flex;flex-wrap:wrap;justify-content:center; }  
+       .instruments>div{width: 150px;height: 150px;}
+
+        
+@keyframes AniGuitar{
+
+	0%{
+      transform: rotateY(0deg);
+	} 
+}
+
+       /*==============================Footer Section styling start ====================================================*/
+
+      #contact{ display: flex;justify-content: space-evenly;align-items: center;flex-direction:column; } 
+      .phone{margin-top:0px}
+      .contU{text-align: center;margin-top: 10px}
+      .socials .loko{color: black;  font-size: 33px; margin-bottom: 20px; font-family: 'Font Awesome 6 Free';
+                    margin-top: 35px}
+      .socials {display: flex;flex-direction: column;align-items: center;}
+      .contactUs{display: flex;
+    flex-direction: column;
+    align-items: center;}
+      
+ }
+
+
+
+ 
+
+/*(504 px) */
+
+  @media only screen and (max-width:504px) {
+                          
+                          .container{ /*  background:skyblue; */width: 100%}
+ 
+
+     /*  =============================== Services section start ================================== */
+
+       .instruments{display: flex;flex-wrap:wrap;justify-content:center;gap:40px }  
+       .instruments>div{width: 150px;height: 150px;}
+
+ 
+      
+ }
+
+
+
+/*(481 px) */
+
+  @media only screen and (max-width:481px) {
+                          
+                          .container{ /*  background:skyblue; */width: 100%}
+ 
+    /*==============================Banner Section styling start ====================================================*/
+  
+         .content h1{margin-top: -30px;}
+            .content h1{font-size: 2vw;line-height: 35px;} 
+			 
+      
+ }
+
+
+
+
+/*(420 px) */
+
+  @media only screen and (max-width:420px) {
+                          
+                          .container{ /*  background:skyblue; */width: 100%}
+                           .content h1{text-align: center;}
+                           .content h5{text-align: center;}
+ 
+    /*==============================Banner Section styling start ====================================================*/
+ 
+			 .banner{flex-direction: column;align-items: center;}
+			 .content{margin-top: 10px}
+
+			 .Guitar{width: 60vw}
+			 
+      
+ }
+
+
+/*(300 px) */
+
+  @media only screen and (max-width:350px) {
+                          
+                          .container{ /*  background:skyblue; */width: 100%}
+ 
+    /*==============================Banner Section styling start ====================================================*/
+ 
+			 .banner{flex-direction: column;align-items: center;}
+			 .content{margin-top: 10px}
+			 .Guitar{width: 80vw}
+			 
+     /*==============================Footer Section styling start ====================================================*/
+      
+       .email span{font-size: 16px}
+
+    
+      
+ }
