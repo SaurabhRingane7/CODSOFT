@@ -1,0 +1,243 @@
+
+*{
+   margin:0px;padding: 0px;padding: 0px;
+}
+
+ /*banner section start*/
+
+.banner{
+   height:600px;
+}
+.ImageList{
+  background-image: url('images/saurabh2.jpeg'); 
+  background-repeat: no-repeat;
+  background-position: 190px 10px;
+  background-size: 500px 500px;
+}
+
+.ImageList ul a{
+     text-decoration: none; 
+      font-size: 12px;  
+      color: black;
+      font-weight: bolder;
+      padding-left: 10px;
+      padding-right: 18px;
+      padding-top: 4px;
+      padding-bottom: 2px;
+      background-color: white;
+      text-align: center; 
+      border: 1px solid;
+ } 
+
+ .ImageList ul li{ 
+    display: block;  
+    list-style-type: none;
+    margin-top: 20px;  
+ }  
+ 
+ .ImageList ul li a:hover{  
+      padding-right: 500px;
+      padding-left: 100px;
+      transition: all 1s; 
+      background-color: red;
+ }  
+   
+ .lists h1{
+    color: white;
+    font-size: 100px;
+    margin-top: 150px;
+    animation-name: rotateText;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+ }
+
+
+
+
+
+
+.myPhooto img{
+   width: 100%;
+}
+
+
+.aboutMe {
+  padding-top: 20px; 
+  color: white;
+}
+
+.aboutMe h1{
+   margin-bottom: 20px; 
+   color: black;
+}
+
+.aboutMe p{
+   font-size: 14px; 
+   text-align: left; 
+   margin-bottom: 1.5rem;
+   color: black;
+}
+ 
+
+.aboutMe a{
+   text-decoration: none;
+   padding: 10px 10px;
+   background-color: black;
+   color: white;  
+}
+.aboutMe a:hover{ 
+   padding: 10px 80px; 
+   transition: all 0.7s linear;
+
+}
+
+.showUserInput{
+   color: red;
+}
+
+#showUserInput{
+   margin-top: 50px;
+}
+
+/*skill section*/
+
+
+  
+
+ .sKILLsection3 h1{
+    font-size: 30px;  
+     text-align: center; 
+     color: black;
+ }
+
+  .imageSection  {  
+    justify-content: space-evenly;
+    margin-top: 50px; 
+ }
+
+ .imageSection h3{ 
+    font-size: 15px; 
+ }
+
+ .imageSection img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+
+  .imageSection img:hover{
+   border: 2px solid red;
+ }
+
+.skillImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+ /*Html css project section*/
+ 
+
+.neo{
+   padding-top: 100px; padding-bottom: 100px;
+}
+ .projectskeleton  {
+     background-image: linear-gradient(to bottom,white,rgb(216, 216, 216)); 
+ }
+
+ .projectskeleton2  {
+     background-image: linear-gradient(to bottom,rgb(216, 216, 216),white); 
+ }
+
+
+ .projectskeleton h1{
+    font-size: 30px; 
+     margin-top: 30px;
+     text-align: center;
+ }
+
+  .projectskeleton2 h1{
+    font-size: 30px; 
+     margin-top: 30px;
+     text-align: center;
+ }
+
+   .projectskeleton2 .pargraph{ 
+      margin-top: 60px;
+ }
+
+   .projectskeleton .pargraph{ 
+      margin-top: 60px;
+ } 
+
+ 
+
+.boxesVanila a{ 
+   display: inline-block; 
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border: 3px solid red; 
+    outline: 1px solid black;
+    outline-offset: 5px;
+    background: red;
+    color: red;
+}
+.boxjimi a:hover{
+     background: black;
+}
+
+
+
+
+
+
+
+/*contact section*/
+ 
+.jio{    
+    background-color: white; 
+} 
+
+ 
+
+.formTable{
+    width: 100%;
+}
+
+.makeAlin{
+    margin: 0px !important; 
+}
+ 
+.name1 input{
+     width: 100% !important;
+     padding-left: 10px;
+}
+
+.name1 textarea{
+     width: 100% !important;
+     padding-left: 10px;
+}
+
+
+ .subMitb button{  
+    background-color: blue; 
+    width:100%;
+    height: 50px;
+    color: white;font-weight: 700;
+    font-size: 24px;
+    margin-top: -5px; 
+   transition-duration: 2s; 
+   color: white;
+   border: 2px solid black;
+ border: 2px solid black;
+ letter-spacing: 4px;
+ }
+  .subMitb button:hover{
+   color: black; 
+   background-color: white;
+    border: 2px solid red;
+ }

@@ -1,0 +1,158 @@
+ 
+@media screen and (max-width:1300px){
+     .myPhoto img{
+      width: 300px;
+} 
+ 
+}  
+
+@media screen and (max-width:1080px){
+     .myPhoto img{
+      width: 300px;
+} 
+ 
+}
+
+
+
+@media screen and (max-width:1000px){
+    .ImageList ul li{ 
+    display: block;  
+    list-style-type: none;
+    margin-top: 10px;  
+ }  
+  .ImageList ul li a:hover{  
+      padding-right: 300px;
+      padding-left: 100px;
+      transition: all 1s; 
+ }   
+ 
+}
+
+
+@media screen and (max-width:850px){
+   .myPhoto img{
+      width: 240px;
+      } 
+}
+
+
+
+@media screen and (max-width:798px){
+    .ImageList ul li{ 
+    display: block;  
+    list-style-type: none;
+    margin-top: 7px;  
+ }  
+  .ImageList ul li a:hover{  
+      padding-right: 200px;
+      padding-left: 100px;
+      transition: all 1s; 
+ }  
+     
+}
+
+
+
+
+
+
+/*     menu responsive end*/
+
+
+
+
+@media screen and (max-width:767px){
+
+.ImageList{
+  background-image: url('images/saurabh2.jpeg'); 
+  background-repeat: no-repeat;
+  background-position: 190px 10px;
+  background-size:contain;
+}
+
+  .sKILLsection3 h1 { 
+    margin-top: 45px;
+}
+
+ .ImageList ul li{ 
+    display: block;  
+    list-style-type: none;
+    margin-top: 4px;  
+ }  
+  .ImageList ul li a:hover{  
+      padding-right: 150px;
+      padding-left: 100px;
+      transition: all 1s; 
+ } 
+   .hideit{
+   	display: none;
+   }
+}
+
+
+ 
+
+@media screen and (max-width:575px){ 
+
+    .ImageList ul a{ 
+                      font-size: 10px;   
+                 } 
+
+              .ImageList ul li{ 
+                display: block;  
+                list-style-type: none;
+                margin-top: 3px;  
+             }  
+              .ImageList ul li a:hover{  
+                  padding-right: 120px;
+                  padding-left: 100px;
+                  transition: all 1s; 
+             } 
+
+          .projectskeleton .pargraph{ 
+                     margin-top: 0px;
+                                 } 
+
+
+			.neo{
+			   padding-top: 50px; padding-bottom: 50px;
+			}
+			   .projectskeleton2 .pargraph{ 
+				      margin-top: 0px;
+				      margin-bottom: 20px;
+
+				 }
+
+				   .projectskeleton .pargraph{ 
+				      margin-top: 0px;
+				      margin-bottom: 20px;
+
+				 } 
+
+ 
+}
+
+
+ 
+
+
+
+@media screen and (max-width:400px){
+                
+
+    .ImageList ul a{ 
+                      font-size: 8px;   
+                 } 
+
+              .ImageList ul li{ 
+                display: block;  
+                list-style-type: none; 
+             }  
+              .ImageList ul li a:hover{  
+                  padding-right: 80px;
+                  padding-left: 100px;
+                  transition: all 1s; 
+             }  
+}
+ 
