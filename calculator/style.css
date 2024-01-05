@@ -1,0 +1,29 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{background-color: rgb(31, 31, 31);}
+
+
+.wrapper{background-color: rgb(66, 66, 66);width: 27%;height: 90vh;margin: auto;margin-top:2%;padding: 2%}
+
+input[type='text']{width: 100%;height:80px;font-size: 30px;background-color: rgb(169, 169, 169);outline: none;border-radius: 8px;border: none;text-align: right;padding-right: 10px}
+
+.keysContainer{height: 84%;width: 100%;display: flex;justify-content: center;margin-top:20px }
+
+.keysWrapper{display: grid;grid-template-columns: repeat(4, 20.5%);grid-template-rows: repeat(5, 15%);grid-row-gap:5%;grid-column-gap:6%;
+            width: 100%;height: 100%;}
+
+
+ .join{grid-column-start: 1;grid-column-end: 3;grid-row-start: 5;grid-row-end: 6}
+.key{border-radius: 20px;display: flex;justify-content: center;align-items: center;font-size: 25px;box-shadow:0px 0px 9px 0px #000000;cursor:pointer; }
+.key i{color: white;}
+.comonCOlorArith{background-color: #616161}
+.comCOlr2{background-color: #464646;color: white;}
+
+.c{color: white;}
+.percentage,.divide,.multi,.minus,.plus{color: #EFA632;}
+.multi{font-size: 50px;margin-top: 14px}
+.minus{font-size: 50px;margin-top: -8px}
+.plus{font-size: 35px;margin-top: -5px}
+
+.equalContainer{background-color:#EFA632;}
+.equal{margin-top: -4px;font-size: 40px;}
